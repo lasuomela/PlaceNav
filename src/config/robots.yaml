@@ -1,0 +1,20 @@
+
+# Turtlebot 2 robot
+turtlebot:
+  # linear and angular speed limits for the robot
+  max_v: 0.2 # m/s
+  max_w: 0.6 # rad/s
+
+  # observation rate of the robot
+  frame_rate: 5 # Hz
+  camera_height: 0.35 # m
+
+  # topic names
+  vel_teleop_topic: "/mobile_base/commands/velocity" 
+  vel_navi_topic: "/mobile_base/commands/velocity"
+  odom_topic: "/odom"
+  camera_topic: "/usb_cam/image_raw"
+  waypoint_topic: "/waypoint"
+  reached_goal_topic: "/toponav/reached_goal"
+  stop_topic: "/toponav/stop"
+  toponav_viz_info_topic: "/toponav/viz_info"

@@ -1,0 +1,21 @@
+
+# Waypoint models
+gnm_large:
+  image_size: [85, 64] # [widht, height] of input images
+  checkpoint_path: gnm_large.pth # path of the model in ../model_weights
+  model_type: "gnm"
+  context_size: 5 # context length
+  len_traj_pred: 5 # number of future waypoints to predict
+  normalize: True # whether to normalize action space
+  learn_angle: True # whether to learn the yaw for each waypoint
+  obs_encoding_size: 1024  # observation encoding dimension
+  goal_encoding_size: 1024 # goal encoding dimension
+
+# Place recognition models
+cosplace:
+  output: "global-feats-cosplace"
+  model:
+    name: "cosplace"
+    backbone: "EfficientNet_B0"
+    fc_output_dim: 512
+    checkpoint_path: "efficientnet_85x85.pth"
