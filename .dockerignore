@@ -1,0 +1,28 @@
+# Ignore common undesired files and directories
+**/.git
+**/.svn
+**/.idea
+**/.vscode
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/*.swp
+**/.DS_Store
+**/*.bak
+
+# Ignore specific file types
+**/*.bag
+**/*.pt
+**/*.pth
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.gif
+**/*.bmp
+**/*.tiff
+**/*.tif
+**/*.mp4
+**/*.h5
+**/*.pkl
+
