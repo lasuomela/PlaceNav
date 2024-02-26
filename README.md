@@ -134,8 +134,8 @@ Parts of this repo are inspired by the following repositories:
 
 [GNM: A General Navigation Model to Drive Any Robot](https://github.com/robodhruv/drive-any-robot) <br/>
 [hloc - the hierarchical localization toolbox](https://github.com/cvg/Hierarchical-Localization) <br/>
-[visual_robot_localization](https://github.com/lasuomela/visual_robot_localization)
-[CosPlace](https://github.com/gmberton/CosPlace) <br/>
+[visual_robot_localization](https://github.com/lasuomela/visual_robot_localization) <br/>
+[CosPlace](https://github.com/gmberton/CosPlace)
 
 ## Citing
 
