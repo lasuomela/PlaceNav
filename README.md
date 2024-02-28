@@ -24,7 +24,7 @@ We recommend running the software on a Linux machine using the provided Docker i
 
 <details><summary><b><font size="+3">Software setup (Docker)</font></b></summary><br/>
 
-We provide a Docker image for easy software setup. The container includes all the software dependencies required to run PlaceNav (including the Turtlebot2 driver install for ROS Noetic). The image is based on `CUDA:11.3.0`, which has the minimum Host OS Nvidia driver version requirement `>=450.80.02`. Newer Nvidia drivers [should be backward compatible](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.13.5/install-guide.html#platform-requirements) with the CUDA toolkit.
+We provide a Docker image for easy software setup. The image includes all the software dependencies required to run PlaceNav (including the Turtlebot2 driver install for ROS Noetic). The image was built for `x86_64` CPU architectures. It is based on `CUDA:11.3.0`, which has the minimum Host OS Nvidia driver version requirement `>=450.80.02`. Newer Nvidia drivers [should be backward compatible](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.13.5/install-guide.html#platform-requirements) with the CUDA toolkit.
 
 Steps to run:
 1. Install [Docker](https://docs.docker.com/engine/install/) and [NVIDIA Container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html).
@@ -40,6 +40,8 @@ You can also build the Docker image yourself using the provided Dockerfile. Loca
 ```
 ./build.sh -r ""
 ```
+
+Building for devices such as NVIDIA Jetson's will probably require some modifications to the Dockerfile (e.g. changing the base image).
 
 </details>
 <details><summary><b><font size="+3">Software setup (Host OS) </font></b></summary><br/>
