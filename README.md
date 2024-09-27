@@ -59,7 +59,7 @@ If you want to set up the software without using Docker, please follow the steps
 
 ## Loading the model weights
 
-Save the model weights *.pth files in `./src/model_weights` folder. GNM weights can be found from [this link](https://drive.google.com/drive/folders/1np7D0Ak7x10IoQn9h0qxn8eoxJQiw8Dr?usp=share_link), and our low-resolution CosPlace weights from [this link](https://drive.google.com/file/d/1M1rvlRYiV9F0VHKggAOyzun4PwGFTlZ1/view?usp=sharing).
+Save the model weights *.pth files in `./src/model_weights` folder. GNM weights can be found from [this link](https://drive.google.com/file/d/1WluphDqeTY5eTGp98Nkc3St6fr9PyrA5/view?usp=drive_link), and our low-resolution CosPlace weights from [this link](https://drive.google.com/file/d/1M1rvlRYiV9F0VHKggAOyzun4PwGFTlZ1/view?usp=sharing).
 
 ## Collecting a Topological Map
 
